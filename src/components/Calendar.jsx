@@ -4,11 +4,10 @@ import style from "../style/calendar.module.scss"
 
 class Calendar extends React.Component {
     render() {
-        return (<div>
+        return (<div style={{position: "relative"}} className={style.main}>
             <span className={style.title}>КАЛЕНДАРЬ</span>
-            <Month className="month" />
+            <Month />
         </div>);
-
     }
 }
 

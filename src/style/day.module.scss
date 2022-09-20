@@ -2,9 +2,27 @@
   height: 100px;
   width: 100px;
   border: solid #E0DBDB 1px;
-  display: inline-block;
-  margin-left: -1px;
-  border-bottom: none;
-  margin-bottom: -5px;
+  display: block;
+  position: inherit;
+
+}
+
+span{
+
+  position: inherit;
+  width: 100%;
+  height: 24px;
+  right: 10px;
+  top: 6px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #000000;
+  display: block;
 }
 

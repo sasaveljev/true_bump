@@ -3,7 +3,7 @@
 .MonthView {
   box-sizing: border-box;
 
-  position: absolute;
+  position: inherit;
   width: 900px;
   height: 600px;
   left: 42px;
@@ -16,17 +16,14 @@
 }
 
 .wrapper {
-  margin: auto;
   left: 15%;
   position: inherit;
   top: 70px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .dayRow {
+  position: inherit;
   margin-top: -5px;
-}
-.dayRow:first-child {
-  border-bottom: none;
-}
-.dayRow:last-child {
-  border-bottom: solid #E0DBDB 1px;
 }

@@ -5,7 +5,7 @@ class Day extends React.Component {
     render() {
         let dayNumber = this.props.dayInWeek
         return <div className={style.day}>
-            {dayNumber}
+            <span>{dayNumber}</span>
         </div>
     }
 }
