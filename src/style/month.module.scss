@@ -14,3 +14,19 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
+
+.wrapper {
+  margin: auto;
+  left: 15%;
+  position: inherit;
+  top: 70px;
+}
+.dayRow {
+  margin-top: -5px;
+}
+.dayRow:first-child {
+  border-bottom: none;
+}
+.dayRow:last-child {
+  border-bottom: solid #E0DBDB 1px;
+}
